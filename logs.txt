@@ -1,0 +1,52 @@
+NOTICE AUTH :*** Processing connection to irc.pmtpa.wikimedia.org
+NOTICE AUTH :*** Looking up your hostname...
+NOTICE AUTH :*** Checking Ident
+NOTICE AUTH :*** Couldn't look up your hostname
+NOTICE AUTH :*** No Ident response
+:irc.pmtpa.wikimedia.org NOTICE karbot :*** Spoofing your IP. congrats.
+:irc.pmtpa.wikimedia.org 001 karbot :Welcome to the Wikimedia Internet Relay Chat Network karbot
+:irc.pmtpa.wikimedia.org 002 karbot :Your host is irc.pmtpa.wikimedia.org[irc.pmtpa.wikimedia.org/6667], running version ircd-ratbox-2.2.9
+:irc.pmtpa.wikimedia.org 003 karbot :This server was created Wed Oct 6 2010 at 14:02:45 UTC
+:irc.pmtpa.wikimedia.org 004 karbot irc.pmtpa.wikimedia.org ircd-ratbox-2.2.9 oiwszcerkfydnxbauglZCD biklmnopstveI bkloveI
+:irc.pmtpa.wikimedia.org 005 karbot CHANTYPES=&# EXCEPTS INVEX CHANMODES=eIb,k,l,imnpst CHANLIMIT=&#:20000 PREFIX=(ov)@+ MAXLIST=beI:100 NETWORK=Wikimedia MODES=4 STATUSMSG=@+ KNOCK CALLERID=g :are supported by this server
+:irc.pmtpa.wikimedia.org 005 karbot SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=50 CHANNELLEN=50 TOPICLEN=300 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=80 :are supported by this server
+:irc.pmtpa.wikimedia.org 005 karbot TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:irc.pmtpa.wikimedia.org 251 karbot :There are 168 users and 24 invisible on 1 servers
+:irc.pmtpa.wikimedia.org 252 karbot 2 :IRC Operators online
+:irc.pmtpa.wikimedia.org 253 karbot 2 :unknown connection(s)
+:irc.pmtpa.wikimedia.org 254 karbot 789 :channels formed
+:irc.pmtpa.wikimedia.org 255 karbot :I have 192 clients and 0 servers
+:irc.pmtpa.wikimedia.org 265 karbot 192 224 :Current local users 192, max 224
+:irc.pmtpa.wikimedia.org 266 karbot 192 224 :Current global users 192, max 224
+:irc.pmtpa.wikimedia.org 250 karbot :Highest connection count: 224 (224 clients) (412110 connections received)
+:irc.pmtpa.wikimedia.org 375 karbot :- irc.pmtpa.wikimedia.org Message of the Day -
+:irc.pmtpa.wikimedia.org 372 karbot :-
+:irc.pmtpa.wikimedia.org 372 karbot :- *******************************************************
+:irc.pmtpa.wikimedia.org 372 karbot :- This is the Wikimedia RC->IRC gateway
+:irc.pmtpa.wikimedia.org 372 karbot :- *******************************************************
+:irc.pmtpa.wikimedia.org 372 karbot :- Sending messages to channels is not allowed.
+:irc.pmtpa.wikimedia.org 372 karbot :-
+:irc.pmtpa.wikimedia.org 372 karbot :- A channel exists for all Wikimedia wikis which have been
+:irc.pmtpa.wikimedia.org 372 karbot :- changed since the last time the server was restarted. In
+:irc.pmtpa.wikimedia.org 372 karbot :- general, the name is just the domain name with the .org
+:irc.pmtpa.wikimedia.org 372 karbot :- left off. For example, the changes on the English Wikipedia
+:irc.pmtpa.wikimedia.org 372 karbot :- are available at #en.wikipedia
+:irc.pmtpa.wikimedia.org 372 karbot :-
+:irc.pmtpa.wikimedia.org 372 karbot :- If you want to talk, please join one of the many
+:irc.pmtpa.wikimedia.org 372 karbot :- Wikimedia-related channels on irc.freenode.net.
+:irc.pmtpa.wikimedia.org 376 karbot :End of /MOTD command.
+:karbot!~karbot@anonymous.user JOIN :#en.wikipedia
+:irc.pmtpa.wikimedia.org 353 karbot = #en.wikipedia :karbot shino_d yeskarthik wikistream COIBot straind op-14311_ Dc987bot newbie1 LiWa3_2 ayT1FRJU36 w1k1strem529249214198 wm-bot1112012 BLWatcher STiki_upenn LauschenBot1326213876 CheMoBot2 yahoo_agent10941 ClueBot_NG af9160bfe1a1ed9e7b93eae01e67c9ed3 XLinkBot UnBlockBot QuentinvBOT SentryBot LisaBot BetacommandBot2 vjt EarwigBot MrFishBot RCMonBot xan_wikistream_bot tk_bot EyeInTheSkyBot adcbecbc50ae41d7afabdf1e29bcfdaf9
+:irc.pmtpa.wikimedia.org 353 karbot = #en.wikipedia :a36daf5c347f9b440a0cb94298b69d961 a23d476313ae3fb78c4da6fdce51dbe0a CVNBlocksReader JBot-RC AFKBot snatch testbotsirc29 @rc-pmtpa
+:irc.pmtpa.wikimedia.org 366 karbot #en.wikipedia :End of /NAMES list.
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Aromanians14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802323&oldid=470799370 5* 03Jingiby 5* (+2017) 10Please, stop vandalism! Semi-protection will be required.
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07User talk:209.68.112.6214]]4 !N10 02http://en.wikipedia.org/w/index.php?oldid=470802324&rcid=484982138 5* 03Vrenator 5* (+1043) 10Level 1 warning re. vandalism on [[Franc]] ([[User:Ale_jrb/Scripts/igloo|GLOO]])
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Category:Indology14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802325&oldid=470788150 5* 03Gregbard 5* (-31) 10removed [[Category:Indian philosophy]] using [[WP:HC|HotCat]]
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Talk:1933 in the Soviet Union14]]4 !N10 02http://en.wikipedia.org/w/index.php?oldid=470802326&rcid=484982140 5* 03Clarkcj12 5* (+129) 10[[WP:AES|←]]Created page with '{{WikiProject Soviet Union|class=list|importance=<!-- task forces and projects -->|rus= |rus-importance= |hist=yes|mil= |econ= }}'
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Wikipedia:Birthday Committee/Calendar/January/1214]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802327&oldid=422859435 5* 03Logan 5* (-21) 10updating usernames
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07And did those feet in ancient time14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802328&oldid=470801400 5* 03Ukexpat 5* (-869) 10Undid revision 470801400 by [[Special:Contributions/Abcphd88|Abcphd88]] ([[User talk:Abcphd88|talk]]) - rv, this looks like original research/conjecture
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Los Prisioneros14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802329&oldid=470802210 5* 03Pablo Illesca Herrera 5* (+0) 10/* Experimental new album, tension and one departure */ 
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Anna O.14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802330&oldid=470073058 5* 03درفش کاویانی 5* (+34) 10
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Broughton, Greater Manchester14]]4 M10 02http://en.wikipedia.org/w/index.php?diff=470802331&oldid=468949432 5* 03ShelfSkewed 5* (+3) 10Disambiguate [[Revenge (band)]] to [[Revenge (UK band)]]
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[072008–09 Jordan FA Cup14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802332&oldid=430986118 5* 03Chanheigeorge 5* (+65) 10
+:rc-pmtpa!~rc-pmtpa@special.user PRIVMSG #en.wikipedia :14[[07Killing Me Softly with His Song14]]4 10 02http://en.wikipedia.org/w/index.php?diff=470802333&oldid=469280996 5* 0367.9.84.49 5* (+47) 10/* Other versions */ 
