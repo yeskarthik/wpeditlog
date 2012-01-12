@@ -1,4 +1,5 @@
 import pyirclib
+import re
 import string
 import sys
 import time
@@ -9,20 +10,24 @@ irc.setDebug = 1
 irc.login('client',username = 'karmabot')
 irc.join("#en.wikipedia")
 file = open("logs.html","w")
-file.write("<html><body>")
-#irc.privmsg("#en.wikipedia","hi future developers!")
+file.write('<html><body>')
+
+regex = re.compile("\x0D|\x1f|\x02|\x12|\x0f|\x16|\x03(?:\d{1,2}(?:,\d{1,2})?)?", re.UNICODE)
 
 def parsemessage(msg):
-    if msg['event'] == "PRIVMSG" and str(msg['text']) == "!NAMES":
+    if msg['event'] == "PRIVMSG" and msg['text'] == "!NAMES":
         print irc.names()
-while 1:
+
+while True:
     message = irc.getmessage()
     if message['nickname'] == "rc-pmtpa" and message['event'] == "PRIVMSG" and message['recpt'] == "#en.wikipedia":
            
-        print message
-        timestamp = str(datetime.datetime.now())
+        
+        timestamp = str(datetime.datetime.utcnow())
         file.write(timestamp+ " ")
-        file.write(message['text'])
+        msg = regex.sub("",str(message['text']))
+        file.write(msg)
+        print msg
         file.write("</br>")
         
         parsemessage(message)
